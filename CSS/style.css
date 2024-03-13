@@ -43,37 +43,38 @@ margin-top: 20px;
 
 /*PÁGINA POEMA*/
 
-  .centrar {
-    display: flex;
-    padding-left: 450px;
-    position: absolute;
-    top: 10px;
-    left: 20px;
-    background-color: lightcoral; /* Color de fondo para el título */
-    font-family: "Noto Sans Khojki", sans-serif;
-    font-style: normal;
-    font-size: 2em;
-    margin-top: 20px ;
-    margin-bottom: 20px;
-  }
+.centrar {
+  background-color: lightcoral;
+  font-family: "Noto Sans Khojki", sans-serif;
+  font-size: 2em;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 
-  .parrafos {
-    display: flex;
-    text-align: center; /* Para centrar los textos */
-    margin: 20px; /* Margen alrededor de la caja de texto */
-    text-align: justify;
-    margin-right: 20px;
+.parrafos {
+  display: flex;
+  justify-content: space-around;
+  text-align: justify;
+  margin: 20px;
+}
 
-    font-family: "Caveat", cursive;
-  font-optical-sizing: auto;
-  font-weight: 20;
-  font-style: normal;
+.columna {
+  flex: 1;
+  margin: 10px;
 }
 
 .parrafos p {
-  margin-left: 100px;
-    margin-top: 120px; /* Espacio entre párrafos */
-    margin-bottom: auto;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: lightcoral;
+  padding: 20px;
 }
 
 
